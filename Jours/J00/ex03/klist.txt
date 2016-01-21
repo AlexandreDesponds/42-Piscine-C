@@ -1,0 +1,6 @@
+Credentials cache: API:15190
+        Principal: adespond@42.FR
+
+  Issued                Expires               Principal
+Sep  2 10:22:56 2015  Sep  2 20:22:56 2015  krbtgt/42.FR@42.FR
+Sep  2 10:25:17 2015  Sep  2 20:22:56 2015  host/vogsphere-frontend-normal-1.42.fr@42.FR

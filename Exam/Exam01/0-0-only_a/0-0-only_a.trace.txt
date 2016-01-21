@@ -1,0 +1,30 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e2r8p8.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Fri Sep 11 17:12:10 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= only_a =======================================================================
+$> clang -Wextra -Wall -Werror only_a.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./5onvxhg8zimazapkp61d01ft 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

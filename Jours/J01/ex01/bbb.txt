@@ -1,0 +1,1 @@
+daemon,everyone,localaccounts,com.apple.sharepoint.group.1,_lpoperator

@@ -1,0 +1,24 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e1r13p11.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Fri Sep 18 20:47:17 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= print_memory =================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================

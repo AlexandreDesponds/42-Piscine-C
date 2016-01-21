@@ -1,0 +1,12 @@
+Start time: 11/09/2015 15:01:13 UTC
+End time: 11/09/2015 19:00:32 UTC
+Mode: real
+Final grade: 64/100
+
+Assignments:
+Level 4:
+0: rostring for 16 potential points (Current)
+0: only_a for 16 potential points (Success)
+0: print_bits for 16 potential points (Success)
+0: search_and_replace for 16 potential points (Success)
+0: expand_str for 16 potential points (Success)

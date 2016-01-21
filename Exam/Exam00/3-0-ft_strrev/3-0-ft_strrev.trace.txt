@@ -1,0 +1,31 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e1r10p19.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Fri Sep  4 18:13:59 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= ft_strrev ====================================================================
+$> clang -Wextra -Wall -Werror main.c -o user_exe 
+Undefined symbols for architecture x86_64:
+  "_ft_strrev", referenced from:
+      _main in main-15de32.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+Could not compile 'user_exe'
+Grade: 0
+
+= Final grade: 0 ===============================================================

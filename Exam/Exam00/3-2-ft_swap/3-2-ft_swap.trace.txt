@@ -1,0 +1,70 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e2r5p20.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Fri Sep  4 19:09:04 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= ft_swap ======================================================================
+$> clang -Wextra -Wall -Werror ft_swap.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./g5rkp0wka678kwslhy259re6 "-1178114487" "145248057"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./owfkqoi15n0fmnah2u1mrzq4 "-1905438041" "868246338"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./20tuhutq2lp63090jcymsvic "1436475475" "1140115738"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./hs9h18q84qzrqh9xzv64rqsc "-81267417" "563133838"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./5vq4i0v9y8uqhgm7yrvnblwv "869437912" "-644923351"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./oq0bhetanq9e4ql9m4ga43sa "-489047841" "-2113970567"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./sesq0vb259usnnxtfwlqf4fk "-398519461" "892532127"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./crvkbelmmvxydxvnb3wibg50 "-1329497772" "1632015613"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./5wzh4y0daadzbfu5ywat1ib6 "151874886" "-320582206"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

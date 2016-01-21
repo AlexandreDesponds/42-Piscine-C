@@ -1,0 +1,100 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e3r11p20.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Sat Sep 26 11:02:40 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= pgcd =========================================================================
+$> clang -Wextra -Wall -Werror pgcd.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./vscgx753t74eovvv6t2v5fu4 "920556" "1980488"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./k3ar6fk6k0q6lsy9tp0sbopj "110360" "116932"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./5jycihejgslkrna38f7ea2r3 "9001392" "2568344"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./t3s1rctc96h5thpv8w63lnkb "4696941" "4664522"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./nzjed9wq3q5veh11prtl65ie "2184164" "5139728"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./c7fltev3y1nwjplwmfgakzs2 "168857" "103974"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./nq68jd30p5jtspa57ctd390d "1741531" "451333"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./7exdljusnh1f0dzgsna8gpwl "1803684" "3539916"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./k8atzkt3ymx5zm6lxv6sf8ua "6459449" "608205"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./1levvh0w1yiqkndvm0wst039 "10166382" "148932"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./097078fuhe02234wl73yt6zo "13522854" "8166288"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./oc9djqwz03z44minwjco258q "15" "18"
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+= Test 13 ==================================================
+$> ./78gm2q2f1gq8ma50wwtmpf3e "1" "17"
+$> diff -U 3 user_output_test13 test13.output | cat -e
+
+Diff OK :D
+= Test 14 ==================================================
+$> ./hu1w45w6595l0i0jjn0wlln4 "17" "33"
+$> diff -U 3 user_output_test14 test14.output | cat -e
+
+Diff OK :D
+= Test 15 ==================================================
+$> ./gm8m8y3ykzb2ayolz2uhit5n "42" "4324232"
+$> diff -U 3 user_output_test15 test15.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

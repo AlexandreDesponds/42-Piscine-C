@@ -1,0 +1,3 @@
+dn: uid=adespond,ou=2015,ou=paris,ou=people,dc=42,dc=fr
+objectClass: apple-user
+sn: DESPONDS

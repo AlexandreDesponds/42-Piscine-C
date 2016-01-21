@@ -1,0 +1,60 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e3r5p13.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Sat Sep 26 10:43:24 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= last_word ====================================================================
+$> clang -Wextra -Wall -Werror last_word.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./p5jwntv7svxaflg3k4d7akvh 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./1s4za2xbl89su5h50nqhddii "premier param" "deuxieme param"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./ataldhbhq4brcanoqepvq5dz "rien ne sert de courir il faut partir a point"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./udkh0878bigtd6ml4eu0e5tf "  et le trim, c'est pour les andouilles en ski  "
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./3mc77dkpdbuy1py30sko8d2v "..."
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./062du36s2fxkeojjidd94vmt ""
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./ay0kg5pv62ra2svfac6adm2m "             "
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

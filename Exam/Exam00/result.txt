@@ -1,0 +1,20 @@
+Start time: 04/09/2015 15:04:06 UTC
+End time: 04/09/2015 17:21:42 UTC
+Mode: real
+Final grade: 60/100
+
+Assignments:
+Level 0:
+0: only_z for 20 potential points (Success)
+Level 1:
+0: ft_print_numbers for 20 potential points (Failure)
+1: hello for 15 potential points (Failure)
+2: ft_countdown for 10 potential points (Success)
+Level 2:
+0: maff_alpha for 20 potential points (Success)
+Level 3:
+0: ft_strrev for 20 potential points (Failure)
+1: ft_strcpy for 15 potential points (Failure)
+2: ft_swap for 10 potential points (Success)
+Level 4:
+0: ft_atoi for 20 potential points (Failure)

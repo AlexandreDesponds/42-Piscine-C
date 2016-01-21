@@ -1,0 +1,60 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e2r12p19.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Fri Sep 11 19:31:55 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= expand_str ===================================================================
+$> clang -Wextra -Wall -Werror expand_str.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./1d5lt808g0r3x9utdp0l89f6 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./0edkdfn9i1w2c1ki96f11vyx " fa f ds f ff" " few"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./tsg4x3f1zpzeelyd5bja7h91 " this is   f-u-b-a-r      "
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./7bab3i3h9ld1v9aae3t069xy "mon poney s'apelle poussiere d'etoile"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./rrz65tn3ha53na54tuo2zjt8 ""
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./myqsjh2x6sqvz58p59y17cfo "quelle est la difference entre un bebe mort et un sandwich au poulet          ? "
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./i4lw1u7a6nre54175az260ht "..."
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

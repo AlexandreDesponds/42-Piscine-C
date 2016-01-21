@@ -1,0 +1,16 @@
+Start time: 18/09/2015 15:01:36 UTC
+End time: 18/09/2015 18:47:27 UTC
+Mode: real
+Final grade: 75/100
+
+Assignments:
+Level 5:
+2: print_memory for 10 potential points (Failure)
+1: brainfuck for 15 potential points (Failure)
+0: ft_itoa_base for 20 potential points (Failure)
+0: ft_list_remove_if for 16 potential points (Success)
+0: add_prime_sum for 16 potential points (Success)
+1: last_word for 11 potential points (Success)
+0: swap_bits for 16 potential points (Failure)
+0: ft_putstr for 16 potential points (Success)
+0: ft_countdown for 16 potential points (Success)

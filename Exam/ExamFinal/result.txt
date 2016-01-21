@@ -1,0 +1,15 @@
+Start time: 26/09/2015 08:00:30 UTC
+End time: 26/09/2015 12:42:54 UTC
+Mode: real
+Final grade: 45/100
+
+Assignments:
+Level 5:
+2: print_memory for 0 potential points (Failure)
+1: ft_itoa_base for 4 potential points (Failure)
+0: brainfuck for 9 potential points (Failure)
+0: fprime for 9 potential points (Success)
+0: pgcd for 9 potential points (Success)
+0: last_word for 9 potential points (Success)
+0: search_and_replace for 9 potential points (Success)
+0: hello for 9 potential points (Success)

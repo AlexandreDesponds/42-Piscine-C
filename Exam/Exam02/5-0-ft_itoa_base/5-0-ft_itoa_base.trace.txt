@@ -1,0 +1,28 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e1r7p13.42.fr
+Darwin 14.5.0 x86_64
+
+$> date
+Fri Sep 18 20:17:27 CEST 2015
+
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+$> clang --version
+Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= ft_itoa_base =================================================================
+$> clang -Wextra -Wall -Werror ft_itoa_base.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./7jo9d9mjgd1jd26ca1kk63mb
+Command './7jo9d9mjgd1jd26ca1kk63mb' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= Final grade: 0 ===============================================================
